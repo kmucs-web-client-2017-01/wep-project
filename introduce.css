@@ -28,6 +28,8 @@ tr:hover{background-color:gray}
 
 .background {
   position: fixed;
+  top: 0;
+  left: 0;
   background-repeat: no-repeat;
   z-index: -1;
   opacity: 0.5;
