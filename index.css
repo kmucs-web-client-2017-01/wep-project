@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo');
+.logo {
+  background-image: url("png/logo.png");
+  margin: 10px;
+  padding: 0;
+  position: static;
+  height: 70px;
+  background-position: center top;
+  background-repeat:no-repeat;
+}
+
+.main-image {
+  position: relative;
+  margin: 80px 0;
+  height: 500px;
+  background-image: url("png/main.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 60%;
+  z-index: -1;
+}
+.login {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  font-size: 15px;
+	font-family: 'Baloo', Times, serif;
+  margin: 15px 10px;
+  width: 100%;
+}
+
+.up {
+  position: fixed;
+  bottom: 10px;
+  right: 0;
+}
