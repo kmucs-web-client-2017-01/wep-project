@@ -4,38 +4,38 @@
   <meta charset="UTF-8">
   <title>Picture</title>
   <link rel="stylesheet" type="text/css" href="picture.css">
+  <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.3.min.js"></script>
+  <script type="text/javascript" src="size.js"></script>
+  <script type="text/javascript" src="bling.js"></script>
 </head>
 <body>
-  <h1 id="up">Picture</h1>
-  <div>
-    <img class="camera" src="png/camera.png" title="카메라">
-  </div>
+  <h1 id="top">Picture<img class="camera" src="png/camera.png" title="카메라"></h1>
   <div><center>
-    <a href="png/1.jpg" target="_blank"><img src="png/1.jpg"></a>
-		<a href="png/2.jpg" target="_blank"><img src="png/2.jpg"></a>
-		<a href="png/3.jpg" target="_blank"><img src="png/3.jpg"></a>
-		<a href="png/4.jpg" target="_blank"><img src="png/4.jpg"></a>
-		<a href="png/5.jpg" target="_blank"><img src="png/5.jpg"></a>
-		<a href="png/6.jpg" target="_blank"><img src="png/6.jpg"></a>
-		<a href="png/7.jpg" target="_blank"><img src="png/7.jpg"></a>
-		<a href="png/8.jpg" target="_blank"><img src="png/8.jpg"></a>
-		<a href="png/9.jpg" target="_blank"><img src="png/9.jpg"></a>
-		<a href="png/10.jpg" target="_blank"><img src="png/10.jpg"></a>
-		<a href="png/11.jpg" target="_blank"><img src="png/11.jpg"></a>
-		<a href="png/13.jpg" target="_blank"><img src="png/13.jpg"></a>
-		<a href="png/14.jpg" target="_blank"><img src="png/14.jpg"></a>
-    <a href="png/15.jpg" target="_blank"><img src="png/15.jpg"></a>
-		<a href="png/16.jpg" target="_blank"><img src="png/16.jpg"></a>
-		<a href="png/17.jpg" target="_blank"><img src="png/17.jpg"></a>
-		<a href="png/18.jpg" target="_blank"><img src="png/18.jpg"></a>
-		<a href="png/19.jpg" target="_blank"><img src="png/19.jpg"></a>
-		<a href="png/20.jpg" target="_blank"><img src="png/20.jpg"></a>
-		<a href="png/21.jpg" target="_blank"><img src="png/21.jpg"></a>
+    <a href="png/1.jpg" target="_blank"><img onmouseenter="bigger(this)" onmouseleave="normal(this)" src="png/1.jpg"></a>
+		<a href="png/2.jpg" target="_blank"><img onmouseenter="bigger(this)" onmouseleave="normal(this)" src="png/2.jpg"></a>
+		<a href="png/3.jpg" target="_blank"><img onmouseenter="bigger(this)" onmouseleave="normal(this)" src="png/3.jpg"></a>
+		<a href="png/4.jpg" target="_blank"><img onmouseenter="bigger(this)" onmouseleave="normal(this)" src="png/4.jpg"></a>
+		<a href="png/5.jpg" target="_blank"><img onmouseenter="bigger(this)" onmouseleave="normal(this)" src="png/5.jpg"></a>
+		<a href="png/6.jpg" target="_blank"><img onmouseenter="bigger(this)" onmouseleave="normal(this)" src="png/6.jpg"></a>
+		<a href="png/7.jpg" target="_blank"><img onmouseenter="bigger(this)" onmouseleave="normal(this)" src="png/7.jpg"></a>
+		<a href="png/8.jpg" target="_blank"><img onmouseenter="bigger(this)" onmouseleave="normal(this)" src="png/8.jpg"></a>
+		<a href="png/9.jpg" target="_blank"><img onmouseenter="bigger(this)" onmouseleave="normal(this)" src="png/9.jpg"></a>
+		<a href="png/10.jpg" target="_blank"><img onmouseenter="bigger(this)" onmouseleave="normal(this)" src="png/10.jpg"></a>
+		<a href="png/11.jpg" target="_blank"><img onmouseenter="bigger(this)" onmouseleave="normal(this)" src="png/11.jpg"></a>
+		<a href="png/13.jpg" target="_blank"><img onmouseenter="bigger(this)" onmouseleave="normal(this)" src="png/13.jpg"></a>
+		<a href="png/14.jpg" target="_blank"><img onmouseenter="bigger(this)" onmouseleave="normal(this)" src="png/14.jpg"></a>
+    <a href="png/15.jpg" target="_blank"><img onmouseenter="bigger(this)" onmouseleave="normal(this)" src="png/15.jpg"></a>
+		<a href="png/16.jpg" target="_blank"><img onmouseenter="bigger(this)" onmouseleave="normal(this)" src="png/16.jpg"></a>
+		<a href="png/17.jpg" target="_blank"><img onmouseenter="bigger(this)" onmouseleave="normal(this)" src="png/17.jpg"></a>
+		<a href="png/18.jpg" target="_blank"><img onmouseenter="bigger(this)" onmouseleave="normal(this)" src="png/18.jpg"></a>
+		<a href="png/19.jpg" target="_blank"><img onmouseenter="bigger(this)" onmouseleave="normal(this)" src="png/19.jpg"></a>
+		<a href="png/20.jpg" target="_blank"><img onmouseenter="bigger(this)" onmouseleave="normal(this)" src="png/20.jpg"></a>
+		<a href="png/21.jpg" target="_blank"><img onmouseenter="bigger(this)" onmouseleave="normal(this)" src="png/21.jpg"></a>
   </center>
   </div>
   <div>
-    <a href="index.html"><img class="home" src="png/home.png" width="50" height="50"></a>
-    <a href="#up"><img class="up" src="png/up.png"></a>
+    <a href="index.html"><img onmouseover="bigger2(this)" onmouseout="normal2(this)" class="home" src="png/home.png" width="50" height="50"></a>
+    <a href="#top"><img onmouseover="bigger2(this)" onmouseout="normal2(this)" class="top" src="png/up.png"></a>
   </div>
 </body>
 </html>

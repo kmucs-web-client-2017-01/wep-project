@@ -1,24 +1,24 @@
-@import url('https://fonts.googleapis.com/css?family=Baloo');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url(//fonts.googleapis.com/earlyaccess/nanumbrushscript.css);
 
-.logo {
-  background-image: url("png/logo.png");
-  margin: 10px;
-  padding: 0;
-  position: static;
-  height: 70px;
-  background-position: center top;
-  background-repeat:no-repeat;
+#main-top {
+  font-family: 'Indie Flower', Times, serif;
+  font-size : 90px;
+  margin : 10px;
+  position : static;
 }
 
-.main-image {
-  position: relative;
-  margin: 80px 0;
-  height: 500px;
-  background-image: url("png/main.jpg");
-  background-position: center top;
-  background-repeat: no-repeat;
-  background-size: 60%;
-  z-index: -1;
+.dog_run {
+  background-image: url("png/dog_run.gif");
+  background-position:center;
+  background-repeat:repeat-x; /* 배경이미지 가로로 반복 */
+  background-size:724px;
+  bottom:0;
+  height:200px;
+  left:0;
+  position:fixed;
+  width:100%;
+  display:none;
 }
 .login {
   position: relative;
@@ -30,8 +30,23 @@
   width: 100%;
 }
 
-.up {
+.main-top {
   position: fixed;
   bottom: 10px;
   right: 0;
+}
+
+.button {
+  position : relative;
+  border : none;
+  background-color : white;
+  width : 30px;
+  margin : 10px;
+}
+
+
+#main-image {
+  margin: 80px 0;
+  z-index: -1;
+  position: relative;
 }

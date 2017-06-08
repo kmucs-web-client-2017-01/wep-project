@@ -4,9 +4,12 @@
   <meta charset="UTF-8">
   <title>Tips</title>
   <link rel="stylesheet" type="text/css" href="tip.css">
+  <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.3.min.js"></script>
+  <script type="text/javascript" src="size.js"></script>
+  <script type="text/javascript" src="bling.js"></script>
 </head>
 <body>
-  <h1 style="font-size: 100px; text-align: center;"id="up">Tips!</h1>
+  <h1 style="font-size: 100px; text-align: center;"id="top">Tips!</h1>
   <table align="center">
     <tr>
       <th><a href="https://www.skyscanner.co.kr/" target="_blank"><img src="png/airplane.png" width="300px" height="300px"></a></th>
@@ -15,8 +18,8 @@
     </tr>
   </table>
   <div>
-    <a href="index.html"><img class="home" src="png/home.png" width="50" height="50"></a>
-    <a href="#up"><img class="up" src="png/up.png" width="50" height="50"></a>
+    <a href="index.html"><img onmouseover="bigger2(this)" onmouseout="normal2(this)" class="home" src="png/home.png" width="50" height="50"></a>
+    <a href="#top"><img onmouseover="bigger2(this)" onmouseout="normal2(this)" class="top" src="png/up.png" width="50" height="50"></a>
   </div>
 </body>
 </html>

@@ -6,6 +6,7 @@ h1, td, li, pre {
 li {
   font-size: 40px;
 }
+
 pre {
   font-size: 30px;
   text-align: center;
@@ -43,8 +44,15 @@ th {
   width: 50px;
   height: 50px;
 }
-.up {
+.top {
   position: fixed;
   bottom: 10px;
   right: 0;
+}
+
+#paragraph1, #paragraph2, #paragraph3, #paragraph4, #paragraph5, #paragraph6 {
+  padding: 50px;
+  background-color: #e5eecc;
+  border : solid 1px #c3c3c3;
+  display : none;
 }

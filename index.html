@@ -5,11 +5,14 @@
   <title>Welcome to Kota Kinabalu</title>
   <link rel="stylesheet" type="text/css" href="index.css">
   <link rel="stylesheet" type="text/css" href="list.css">
+  <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.3.min.js"></script>
+  <script type="text/javascript" src="size.js"></script>
+  <script type="text/javascript" src="animation.js"></script>
+  <script type="text/javascript" src="bling.js"></script>
 </head>
 <body>
-  <embed src="music.mp3" type="audio/mp3" autostart="true" hidden="true" loop="true">
-  <div class="logo" id="up">
-  </div>
+  <embed src="png/music.mp3" type="audio/mp3" autostart="true" hidden="true" loop="true">
+  <center><div class="main-title" id="main-top" style="color : #53ff1a"><b>Welcome to kota Kinabalu</b></div></center>
   <nav><center>
     <div class="nav">
       <ul>
@@ -22,21 +25,23 @@
         <li class="right-align"><a href="#login">Log in</a></li>
       </ul>
     </div>
-  <center></nav>
-  <div class="main-image">
-  </div><br><br><br><br><br>
+  </center></nav>
+  <center><img src="png/main1.jpg" id="main-image" width="60%" height=500 alt="클릭하면 변하는 이미지"></center>
+  <div class="dog_run"></div>
   <div class="login">
     <form>
       <p id="login">
-        더 많은 정보를 원하시면 로그인을 해주세요 >>>>  ID : <input type= "text" placeholder="Your ID" autocomplete="off">
-        PW : <input type="password" placeholder="Your PW">
-        <button type="submit">Submit</button>
-        <button type="reset">Cancel</button>
+        더 많은 정보를 원하시면 로그인을 해주세요 >>>>  ID : <input id="ID" type= "text" placeholder="Your ID" autocomplete="off"></input><span hidden="hidden"><mark><i>Type your ID</i></mark></span>
+        PW : <input id="PW" type="password" placeholder="Your PW"></input><span hidden="hidden"><mark><i>Type your PW</i></mark></span>
+        <button class="button" id="submit" type="submit"><img src="png/login.png" width=20></button>
+        <button class="button" type="button" onclick="$('.dog_run').slideDown()"><img src="png/run.png" width=20></button>
+        <button class="button" type="button" onclick="$('.dog_run').slideUp()"><img src="png/stop.png" width=20></button>
+        <script type="text/javascript" src="login.js"></script>
       </p>
     </form>
   </div>
   <div>
-    <a href="#up"><img class="up" src="png/up.png" width="50" height="50"></a>
+    <a href="#top"><img onmouseover="bigger2(this)" onmouseout="normal2(this)" class="main-top" src="png/up.png" width="50" height="50"></a>
   </div>
 </body>
 </html>

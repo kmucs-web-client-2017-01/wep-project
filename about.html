@@ -4,6 +4,10 @@
   <meta charset="UTF-8">
   <title>About</title>
   <link rel="stylesheet" type="text/css" href="about.css">
+  <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.3.min.js"></script>
+  <script type="text/javascript" src="size.js"></script>
+  <script type="text/javascript" src="bling.js"></script>
+  <script type="text/javascript" src="text.js"></script>
 </head>
 <body>
   <div>
@@ -14,18 +18,19 @@
   </center></div>
   <div>
     <p class="info">
-      <img class="list" src="png/name.png"><b>NAME</b> : 정창회<br>
-  	  <img class="list" src="png/age.png"><b>AGE</b>: 23<br>
-  	  <img class="list" src="png/sex.png"><b>SEX</b> : 남자<br>
-      <img class="list" src="png/phone.png"><b>PHONE</b> : 010-3194-5883<br>
-      <img class="list" src="png/email.png"><b>E-MAIL</b> : jeong5055@naver.com<br>
-  	  <img class="list" src="png/instagram.png"><b>INSTAGRAM</b> : <a class="link" href="https://www.instagram.com/changhaee/" target="_blank">changhaee</a><br>
-  	  <img class="list" src="png/facebook.png"><b>FACEBOOK</b> : <a class="link" href="https://www.facebook.com/jeong5055" target="_blank">정창회</a><br>
+      <span id="sentence1" hidden='hidden'><img class="list" src="png/name.png"><b>NAME</b> : 정창회<br></span>
+  	  <span id="sentence2" hidden='hidden'><img class="list" src="png/age.png"><b>AGE</b>: 23<br></span>
+  	  <span id="sentence3" hidden='hidden'><img class="list" src="png/sex.png"><b>SEX</b> : 남자<br></span>
+      <span id="sentence4" hidden='hidden'><img class="list" src="png/phone.png"><b>PHONE</b> : 010-3194-5883<br></span>
+      <span id="sentence5" hidden='hidden'><img class="list" src="png/email.png"><b>E-MAIL</b> : jeong5055@naver.com<br></span>
+  	  <span id="sentence6" hidden='hidden'><img class="list" src="png/instagram.png"><b>INSTAGRAM</b> : <a class= "link" href="https://www.instagram.com/changhaee/" target="_blank">changhaee</a><br></span>
+  	  <span id="sentence7" hidden='hidden'><img class="list" src="png/facebook.png"><b>FACEBOOK</b> : <a class= "link" href="https://www.facebook.com/jeong5055" target="_blank">정창회</a><br></span>
+      <script type="text/javascript" src="link.js"></script>
     </p>
   </div>
   <div>
-    <a href="index.html"><img class="home" src="png/home.png" width="50" height="50"></a>
-    <a href="#top"><img class="up" src="png/up.png" width="50" height="50"></a>
+    <a href="index.html"><img onmouseover="bigger2(this)" onmouseout="normal2(this)" class="home" src="png/home.png" width="50" height="50"></a>
+    <a href="#top"><img onmouseover="bigger2(this)" onmouseout="normal2(this)"class="top" src="png/up.png" width="50" height="50"></a>
   </div>
 </body>
 </html>

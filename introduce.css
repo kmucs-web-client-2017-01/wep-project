@@ -47,7 +47,7 @@ tr:hover{background-color:gray}
   width: 50px;
   height: 50px;
 }
-.up {
+.top {
   position: fixed;
   bottom: 10px;
   right: 0;
@@ -60,4 +60,14 @@ tr:hover{background-color:gray}
   background-position: center top;
   background-repeat: no-repeat;
   background-size: 60%;
+}
+#paragraph1, #paragraph2, #paragraph3, #paragraph4, #paragraph5 {
+  padding: 50px;
+  background-color: #e5eecc;
+  border : solid 1px #c3c3c3;
+  display : none;
+}
+
+#kota, #korea {
+  font-size: 5px;
 }
